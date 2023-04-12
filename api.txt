@@ -1,0 +1,13 @@
+You can connect to API and get random quiz through https://rodiontestquiz.000webhostapp.com/api/get.php
+If you connect with Postman, you'll have random quiz. But if try to get API in user personal page (HOME) you'll get random quiz, from users list
+
+API fields:
+"id" - unique Id of quiz
+"header" - header of quiz
+"status" - status of quiz (always will be 'post', because ypu can get only posted quizes)
+"options" - options of quiz
+	"options_*" - info about option
+		"0" - option text
+		"1" - amount of votes
+"user_id" - id of user, who create the quiz
+"created_at" - date, when quiz was created

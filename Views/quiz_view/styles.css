@@ -1,0 +1,26 @@
+.form-quiz{
+    margin-top: 5%;
+    margin-left: 5%;
+    width:400px;
+   /* transform: translate(-50%, -50%);*/
+}
+nav{
+    margin-left: 25px;
+}
+#option-holder{
+    margin-bottom: 5px;
+}
+#delete-button{
+    margin-left: 5px;
+}
+.count{
+    width: 50px;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

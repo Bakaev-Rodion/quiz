@@ -1,0 +1,23 @@
+.quizes{
+    margin-top: 5%;
+    margin-left: 5%;
+    width:1000px;
+}
+nav{
+    margin-left: 25px;
+}
+.option{
+    border-left:1px solid;
+    border-right:1px solid;
+}
+.status{
+    border-left:1px solid;
+    border-right:1px solid;
+    border-bottom:1px solid;
+}
+thead{
+    border-bottom:1px solid;
+}
+.btn{
+    margin-right: 25px;
+}
